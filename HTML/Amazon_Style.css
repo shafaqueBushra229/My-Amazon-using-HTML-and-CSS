@@ -152,7 +152,43 @@ span{
 }
 
 .hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     background-image: url(hero_image.jpg);
-    height: 600px;
+    height: 300px;
     background-size: cover;
+  
+
+}
+
+.text-btw-hero-sec{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: white;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+    width: 80%;
+}
+
+.text-btw-hero-sec a{
+    color: #007185;
+
+}
+
+/* Shop Section*/
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+.box{
+ width: 25%;
+ height: 250px;
+ background-color: white;
+ margin: 20px;
 }

@@ -34,6 +34,7 @@
 
 .border:hover{
     border: 1.5px solid white;
+    padding: 1px;
 }
 
 /** box2 **/
@@ -66,7 +67,7 @@
 }
 
 .nav-search:hover{
-    border: 4px solid orange;
+    border: 2px solid orange;
 }
 
 .select-nav{
@@ -78,8 +79,6 @@
     border-top-left-radius: 4px ;
     border-bottom-left-radius: 4px ;
     border: none;
-
-
 }
 
 .nav-input{
@@ -111,7 +110,7 @@ span{
 }
 
 .nav-cart i{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .nav-cart{
@@ -119,4 +118,41 @@ span{
     font-weight: 700;
 }
 
+/* Box5*/
+.sub-nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3b;
+    color: white;
+    height: 40px;
+    align-items: center;
+}
 
+.hangburger i{
+    
+}
+
+.hangburger{
+   
+    margin-left: 2px;
+}
+
+.anchor-sub-nav{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.anchor-sub-nav p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hero-section{
+    background-image: url(hero_image.jpg);
+    height: 600px;
+    background-size: cover;
+}
